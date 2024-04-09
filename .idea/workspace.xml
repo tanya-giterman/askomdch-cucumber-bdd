@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="328531da-44b1-40a4-aef9-998ac175bd0c" name="Changes" comment="">
+    <list default="true" id="328531da-44b1-40a4-aef9-998ac175bd0c" name="Changes" comment="created login step definitions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/academy/techcenture/features/askomdch_login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/academy/techcenture/features/askomdch_login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/academy/techcenture/step_definitions/AskOmDchLoginStepsDefintions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/academy/techcenture/step_definitions/AskOmDchLoginStepsDefintions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tanya-giterman"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4965c5c4-1637-4b71-aa28-fcbd47d6b404" />
+        <option name="url" value="https://github.com/tanya-giterman/askomdch-cucumber-bdd.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -33,14 +50,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: AskOmDch Register New User">
+    <configuration name="Feature: askomdch_login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/academy/techcenture/features/askomdch_login.feature" />
+      <option name="GLUE" value="com.academy.techcenture.hooks com.academy.techcenture.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="askomdch-cucumber-bdd" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: askomdch_login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: AskOmDch Register New User" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/academy/techcenture/features/askomdch_register.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="askomdch-cucumber-bdd" />
+      <option name="NAME_FILTER" value="^AskOmDch Register New User$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AskOmDch Register New User$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: AskOmDch Register New User" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="askomdch-cucumber-bdd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="askomdch-cucumber-bdd" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: AskOmDch Register New User" />
+        <item itemvalue="Cucumber Java.Feature: askomdch_login" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +127,105 @@
       <option name="presentableId" value="Default" />
       <updated>1712593975947</updated>
     </task>
+    <task id="LOCAL-00001" summary="started new project">
+      <option name="closed" value="true" />
+      <created>1712618957512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712618957512</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated place order feature">
+      <option name="closed" value="true" />
+      <created>1712620785094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712620785094</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created register feature">
+      <option name="closed" value="true" />
+      <created>1712623066893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712623066893</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created register feature">
+      <option name="closed" value="true" />
+      <created>1712623104881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712623104881</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated register feature">
+      <option name="closed" value="true" />
+      <created>1712624014692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712624014692</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated login feature, close #4">
+      <option name="closed" value="true" />
+      <created>1712624279383</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712624279383</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated package features">
+      <option name="closed" value="true" />
+      <created>1712625036369</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712625036369</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated package features">
+      <option name="closed" value="true" />
+      <created>1712625086735</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712625086735</updated>
+    </task>
+    <task id="LOCAL-00009" summary="created login step definitions">
+      <option name="closed" value="true" />
+      <created>1712625305640</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712625305640</updated>
+    </task>
+    <task id="LOCAL-00010" summary="created login step definitions">
+      <option name="closed" value="true" />
+      <created>1712625371480</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712625371480</updated>
+    </task>
+    <task id="LOCAL-00011" summary="created login step definitions">
+      <option name="closed" value="true" />
+      <created>1712625501897</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712625501897</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="started new project" />
+    <MESSAGE value="updated place order feature" />
+    <MESSAGE value="created register feature" />
+    <MESSAGE value="updated register feature" />
+    <MESSAGE value="updated login feature, close #4" />
+    <MESSAGE value="updated package features" />
+    <MESSAGE value="created login step definitions" />
+    <option name="LAST_COMMIT_MESSAGE" value="created login step definitions" />
   </component>
 </project>
