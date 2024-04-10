@@ -1,5 +1,7 @@
 package com.academy.techcenture.step_definitions;
 
+import com.academy.techcenture.config.ConfigReader;
+import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -17,27 +19,30 @@ public class AskOmDchRegisterNewUserStepsDefinitions {
         registerBtn.click();
     }
 
-    @Then("user adds {string} username")
-    public void userAddsUsername(String username) {
-        WebElement usernameInput = getDriver().findElement(By.id("Fake"));
-        usernameInput.sendKeys(username);
+    @Then("user adds fake username")
+    public void userAddsFakeUsername() {
+        Faker faker = new Faker ();
+        WebElement usernameInput = getDriver().findElement(By.id("reg_username"));
+        usernameInput.sendKeys(faker.name().username());
     }
 
-    @And("user adds {string} email")
-    public void userAddsEmail(String email) {
-        WebElement emailInput = getDriver().findElement(By.id("fake123@gmail.com"));
-        emailInput.sendKeys(email);
+    @And("user adds fake email")
+    public void userAddsFakeEmail() {
+        Faker faker = new Faker ();
+        WebElement emailInput = getDriver().findElement(By.id("reg_email"));
+        emailInput.sendKeys(faker.internet().emailAddress());
     }
 
-    @And("user adds {string} password")
-    public void userAddsPassword(String password) {
-        WebElement passwordInput = getDriver().findElement(By.id("Fake123"));
-        passwordInput.sendKeys(password);
+    @And("user adds fake password")
+    public void userAddsFakePassword() {
+        Faker faker = new Faker ();
+        WebElement passwordInput = getDriver().findElement(By.id("reg_password"));
+        passwordInput.sendKeys(faker.internet().password());
     }
 
     @When("user clicks on register button")
     public void user_clicks_on_register_button() {
-        WebElement registerButton = getDriver().findElement(By.xpath("//*[@id=\"customer_login\"]/div[2]/h2"));
+        WebElement registerButton = getDriver().findElement(By.name("register"));
         Assert.assertTrue(registerButton.isEnabled());
         registerButton.click();
 
@@ -57,12 +62,4 @@ public class AskOmDchRegisterNewUserStepsDefinitions {
 
     }
 
-    @Then("user is on the login page")
-    public void user_is_on_the_login_page() {
-        String actualTitle = getDriver().getTitle();
-        Assert.assertEquals("Login page titles do not match", actualTitle, "askOmDch demo store. Login");
-        WebElement loginHeader = getDriver().findElement(By.className("page-title"));
-        Assert.assertTrue("Login Header is not displayed",loginHeader.isDisplayed());
-
-    }
 }
