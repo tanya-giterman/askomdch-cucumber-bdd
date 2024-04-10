@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="328531da-44b1-40a4-aef9-998ac175bd0c" name="Changes" comment="created login step definitions">
+    <list default="true" id="328531da-44b1-40a4-aef9-998ac175bd0c" name="Changes" comment="login feature modify">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/academy/techcenture/features/askomdch_login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/academy/techcenture/features/askomdch_login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/academy/techcenture/step_definitions/AskOmDchLoginStepsDefintions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/academy/techcenture/step_definitions/AskOmDchLoginStepsDefintions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/academy/techcenture/features/askomdch_place_order.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/academy/techcenture/features/askomdch_place_order.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/academy/techcenture/step_definitions/AskOmDchPlaceOrderStepsDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/academy/techcenture/step_definitions/AskOmDchPlaceOrderStepsDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +25,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "tanya-giterman"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tanya-giterman&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -56,10 +56,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ipsam/IdeaProjects/pom99",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: AskOmDch Register New User">
+  <component name="RunManager" selected="Cucumber Java.Feature: askomdch_place_order">
     <configuration name="Feature: askomdch_login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/academy/techcenture/features/askomdch_login.feature" />
@@ -68,6 +69,24 @@
       <module name="askomdch-cucumber-bdd" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: askomdch_login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: askomdch_place_order" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/academy/techcenture/features/askomdch_place_order.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="askomdch-cucumber-bdd" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: askomdch_place_order" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -98,23 +117,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="Scenario: AskOmDch User Login Negative Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/academy/techcenture/features/askomdch_login.feature" />
+      <option name="GLUE" value="com.academy.techcenture.hooks com.academy.techcenture.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="askomdch-cucumber-bdd" />
+      <option name="NAME_FILTER" value="^AskOmDch User Login Negative Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AskOmDch User Login Negative Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: AskOmDch User Login Negative Scenario" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="Scenario: AskOmDch User Login Positive Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/academy/techcenture/features/askomdch_login.feature" />
+      <option name="GLUE" value="com.academy.techcenture.hooks com.academy.techcenture.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="askomdch-cucumber-bdd" />
-      <option name="filePath" />
+      <option name="NAME_FILTER" value="^AskOmDch User Login Positive Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AskOmDch User Login Positive Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: AskOmDch User Login Positive Scenario" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: AskOmDch Register New User" />
+        <item itemvalue="Cucumber Java.Feature: askomdch_place_order" />
+        <item itemvalue="Cucumber Java.Scenario: AskOmDch User Login Negative Scenario" />
+        <item itemvalue="Cucumber Java.Scenario: AskOmDch User Login Positive Scenario" />
         <item itemvalue="Cucumber Java.Feature: askomdch_login" />
+        <item itemvalue="Cucumber Java.Scenario: AskOmDch Register New User" />
       </list>
     </recent_temporary>
   </component>
