@@ -14,3 +14,4 @@ Feature: AskOmDch User Registration Feature
     Then user should see success registration message
     When user clicks on logout button
     Then user is on the home page
+
