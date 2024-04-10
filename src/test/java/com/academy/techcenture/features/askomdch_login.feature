@@ -9,6 +9,7 @@ Feature: AskOmDch Login Feature
   Scenario: AskOmDch User Login Positive Scenario
     When user uses login credentials "12345" and "12345" and clicks on login button
     Then user should see the account and logout link on top
+    And user clicks on logout button
 
   @smoke
   Scenario: AskOmDch User Login Negative Scenario
